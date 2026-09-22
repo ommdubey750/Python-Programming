@@ -1,0 +1,18 @@
+'''Practice Problem: Write a program to find how many times the substring “Emma” appears in a given string.
+
+Exercise Purpose: Text analysis and pattern matching are core pillars of programming. This exercise introduces searching for a “needle in a haystack,” a fundamental concept for building search engines or data validation tools.
+
+Given Input:
+
+str_x = "Emma is good developer. Emma is a writer"
+Expected Output: Emma appeared 2 times'''
+def Function():
+    count=0
+    for i in words:
+        if i==word:
+            count+=1
+    print(f"Emma appeared {count} Times")
+str_x="Emma is good developer. Emma is a write"
+words=str_x.split()
+word='Emma'
+Function()
